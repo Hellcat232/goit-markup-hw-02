@@ -11,10 +11,10 @@
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-.a {
+a {
   text-decoration: none;
 }
-.ul {
+ul {
   list-style: none;
 }
 .header-logo-link {
@@ -29,8 +29,18 @@
 .studio {
   color: #2e2f42;
 }
-.header-nav-list {
+.footer-link .studio {
+  color: #f4f4fd;
 }
+.subtitle {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
 .heder-nav-item {
   font-family: Roboto;
   font-size: 16px;
@@ -64,9 +74,10 @@
   line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
   color: #ffffff;
+  text-align: center;
 }
 .title-button {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -97,4 +108,17 @@
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
