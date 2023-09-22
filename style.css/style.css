@@ -32,6 +32,13 @@ ul {
 .header-nav-list .heder-nav-studio {
   color: #2e2f42;
 }
+.heder-nav-link {
+  color: #2e2f42;
+}
+.heder-nav-link:hover,
+.heder-nav-link:focus {
+  color: #404bbf;
+}
 .subtitle {
   font-family: Roboto;
   font-size: 20px;
