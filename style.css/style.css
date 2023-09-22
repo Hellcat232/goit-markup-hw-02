@@ -34,10 +34,12 @@ ul {
 }
 .heder-nav-link {
   color: #2e2f42;
+  cursor: pointer;
 }
 .heder-nav-link:hover,
 .heder-nav-link:focus {
   color: #404bbf;
+  background-color: #404bbf;
 }
 .subtitle {
   font-family: Roboto;
