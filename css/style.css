@@ -126,16 +126,13 @@ ul {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
-
+.future {
+  background-color: #ffffff;
+}
 .section-team {
   background-color: #f4f4fd;
 }
-.team-list-info {
-  background-color: #f4f4fd;
-}
-.section-team-image {
-  background-color: #ffffff;
-}
+
 .section-portfolio-title {
   font-family: Roboto;
   font-size: 36px;
