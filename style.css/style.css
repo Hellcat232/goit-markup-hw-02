@@ -4,12 +4,10 @@
   background-color: #ffffff;
 }
 .text {
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 a {
   text-decoration: none;
@@ -26,6 +24,13 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.header-nav-list {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
 .studio {
   color: #2e2f42;
 }
@@ -39,42 +44,58 @@ ul {
 .heder-nav-link:hover,
 .heder-nav-link:focus {
   color: #404bbf;
+}
+.title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+}
+.title-button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.title-button:hover,
+.title-button:focus {
   background-color: #404bbf;
 }
 .subtitle {
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .heder-nav-item {
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .header-contacts {
   font-style: normal;
 }
 .header-links {
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
-
-.title {
+#main-title {
   background-color: #2e2f42;
 }
+
 .effective {
   font-family: Roboto;
   font-size: 56px;
@@ -108,16 +129,7 @@ ul {
 .section-team {
   background-color: #f4f4fd;
 }
-.section-team-title {
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px; /* 111.111% */
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+
 .section-portfolio {
   background-color: #ffffff;
 }
