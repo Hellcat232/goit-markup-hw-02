@@ -15,7 +15,8 @@ a {
 ul {
   list-style: none;
 }
-.header-logo {
+
+.heder-nav-item .header-logo {
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -24,6 +25,15 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.heder-nav-link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .studio {
