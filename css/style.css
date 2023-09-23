@@ -126,11 +126,9 @@ ul {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
-.team-list {
-  background-color: #ffffff;
-}
+
 .section-team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-list-info {
   background-color: #f4f4fd;
