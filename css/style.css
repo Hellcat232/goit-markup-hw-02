@@ -129,8 +129,11 @@ ul {
 .future {
   background-color: #ffffff;
 }
+.team-list {
+  background-color: #ffffff;
+}
 .section-team {
-  background-color: inherit;
+  background-color: #f4f4fd;
 }
 
 .section-portfolio-title {
