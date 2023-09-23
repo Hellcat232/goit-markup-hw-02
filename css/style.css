@@ -135,8 +135,9 @@ ul {
 .section-team {
   background-color: #f4f4fd;
 }
-.section-team-image {
-  background-color: #ffffff;
+
+.team-list.info {
+  background-color: #fff;
 }
 .section-portfolio-title {
   font-family: Roboto;
