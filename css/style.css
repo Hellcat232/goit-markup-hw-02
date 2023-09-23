@@ -143,6 +143,7 @@ ul {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  background-color: #ffffff;
 }
 
 .footer {
