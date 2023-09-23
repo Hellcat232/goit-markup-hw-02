@@ -24,6 +24,9 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.studio {
+  color: #2e2f42;
+}
 .header-nav-list {
   font-family: Roboto;
   font-size: 16px;
@@ -31,9 +34,7 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.studio {
-  color: #2e2f42;
-}
+
 .header-nav-list .heder-nav-studio {
   color: #2e2f42;
 }
@@ -96,7 +97,7 @@ ul {
   background-color: #2e2f42;
 }
 
-.effective {
+.effective-title {
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
@@ -129,9 +130,8 @@ ul {
 .section-team {
   background-color: #f4f4fd;
 }
-
-.section-portfolio {
-  background-color: #ffffff;
+.team-list-info {
+  background-color: #f4f4fd;
 }
 .section-portfolio-title {
   font-family: Roboto;
@@ -154,4 +154,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.studio-footer {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
 }
