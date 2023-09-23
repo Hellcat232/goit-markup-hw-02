@@ -15,26 +15,14 @@ a {
 ul {
   list-style: none;
 }
-
 .header-logo {
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.16; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.heder-nav-link {
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 21.5; /* 150% */
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  cursor: pointer;
 }
 .studio {
   color: #2e2f42;
@@ -46,8 +34,11 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.heder-nav-link:hover,
-.heder-nav-link:focus {
+.main-link {
+  color: #2e2f42;
+}
+.main-link:hover,
+.main-link:focus {
   color: #404bbf;
 }
 .title {
@@ -96,6 +87,10 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #434455;
+}
+.header-links:hover,
+.header-links:focus {
+  color: #404bbf;
 }
 #main-title {
   background-color: #2e2f42;
