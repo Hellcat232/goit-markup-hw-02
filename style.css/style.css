@@ -16,11 +16,12 @@ ul {
   list-style: none;
 }
 .header-logo-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-family: Raleway;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   color: #4d5ae5;
 }
